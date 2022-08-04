@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Supermercado</title> 
+</head>
+<body>
+
+    <div id="container">
+        <h3>Supermercado</h3>
+
+        <form action="backend/cadastrar_produto.php" method="post">
+
+        <div>
+            <label for="produto">Produto</label>
+            <input type="text" name="produto" id="produto">
+        </div>
+
+        <div>
+            <label for="marca">Marca</label>
+            <input type="text" name="marca" id="marca">
+        </div>
+
+        <div>
+            <label for="categoria">Categoria</label>
+            <input type="text" name="categoria" id="categoria">
+        </div>
+
+        <div>
+            <label for="data">Data de Validade</label>
+            <input type="date" name="data" id="data">
+        </div>
+
+        <div>
+            <label for="preco">Preço</label>
+            <input type="text" name="preco" id="preco">
+        </div>
+
+        <input type="submit" value="Cadastrar">
+
+
+    </div>
+    
+</body>
+</html>
