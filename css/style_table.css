@@ -1,0 +1,16 @@
+#container{
+    overflow-x: auto;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+th, td{
+    text-align: center;
+    padding: 8px;
+  }
