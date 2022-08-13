@@ -59,7 +59,7 @@
                 <td><?php echo $produtos['categoria']; ?></td>
                 <td><?php echo $produtos['validade']; ?></td>
                 <td>R$<?php echo $produtos['valor']; ?></td>
-                <td>Alterar</td>
+                <td><a href="alterar_produtos.php?id=<?php echo $produtos['id']; ?>">Alterar</a></td>
                 <td><a href="../backend/_deletar_produtos.php?id=<?php echo $produtos['id']; ?>">Deletar</a></td>
             </tr>
 
