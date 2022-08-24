@@ -17,9 +17,7 @@ try{
     $valor = $_POST['valor'];
 
     $sql = "UPDATE tb_produtos 
-                SET `produto`= '$produto',
-                
-                "
+                SET `produto`= '$produto', `marca` = $marca, `categoria` = $categoria, `validade` = $validade, `valor` = $valor";
 
 }catch(PDOException $erro){
     echo $erro->getMessage();

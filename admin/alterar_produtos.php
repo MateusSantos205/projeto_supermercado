@@ -30,7 +30,7 @@ $dados = $comando->fetchAll(PDO::FETCH_ASSOC);
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Alterar Produtos</title>
 </head>
 <body>
@@ -43,32 +43,32 @@ $dados = $comando->fetchAll(PDO::FETCH_ASSOC);
             <div id="grid_alterar">
                 <div>
                     <laber for="">ID</laber>
-                    <input type="text" name="id" id="id" value="<?php echo $dado[0]['id']?>" readonly>
+                    <input type="text" name="id" id="id" value="<?php echo $dados[0]['id']?>" readonly>
                 </div>
 
                 <div>
                     <laber for="">Produto</laber>
-                    <input type="text" name="produto" id="produto" value="<?php echo $dado[0]['produto']?>">
+                    <input type="text" name="produto" id="produto" value="<?php echo $dados[0]['produto']?>">
                 </div>
 
                 <div>
                     <laber for="">Marca</laber>
-                    <input type="text" name="marca" id="marca" value="<?php echo $dado[0]['marca']?>">
+                    <input type="text" name="marca" id="marca" value="<?php echo $dados[0]['marca']?>">
                 </div>
 
                 <div>
                     <laber for="">Categoria</laber>
-                    <input type="text" name="categoria" id="categoria" value="<?php echo $dado[0]['categoria']?>">
+                    <input type="text" name="categoria" id="categoria" value="<?php echo $dados[0]['categoria']?>">
                 </div>
 
                 <div>
                     <laber for="">Validade</laber>
-                    <input type="text" name="validade" id="validade" value="<?php echo $dado[0]['validade']?>">
+                    <input type="text" name="validade" id="validade" value="<?php echo $dados[0]['validade']?>">
                 </div>
 
                 <div>
                     <laber for="">Valor</laber>
-                    <input type="text" name="valor" id="valor" value="<?php echo $dado[0]['valor']?>">
+                    <input type="text" name="valor" id="valor" value="<?php echo $dados[0]['valor']?>">
                 </div>
 
             </div>
