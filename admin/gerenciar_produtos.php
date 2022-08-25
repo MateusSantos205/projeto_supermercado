@@ -36,6 +36,12 @@
 
     <h3>Gerenciar Produtos</h3>
 
+    <hr>
+
+    <button><a href="cadastro-produtos.html">Cadastrar produtos</a></button>
+
+    <hr>
+
     <div id="tabela" >
 
         <table>
